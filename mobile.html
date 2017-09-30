@@ -12,7 +12,7 @@
 	<body>
 
 		<div class="nav">
-			<button id="boton">Abrir</button>
+			<button id="boton">Toggle</button>
 				
 			<ul class="nav-mobile" id="menu">
 				<li><a href="#">Botón 1</a></li>
@@ -29,6 +29,8 @@
 				"click",
 				function () {
 					alert("Hiciste clic!");
+
+					menu.classList.add("toggle");
 				}
 			);
 			
