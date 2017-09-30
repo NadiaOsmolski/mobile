@@ -13,6 +13,7 @@
 .nav-mobile{
     position: absolute;
     right: 30px;
+    width: 400px;
 
     list-style-type: none;
     background-color: purple;
