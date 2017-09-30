@@ -6,7 +6,11 @@
 }
 
 .nav {
-    position: relative
+    position: relative;
+
+    /* Oculto el menú mobile*/
+    display: none;
+
 
 }
 
@@ -36,4 +40,39 @@
 
 .toggle{
     display: block;
+}
+
+/* 
+    MENU ESCRITORIO
+*/
+
+.nav-desktop{
+    max-width: 1000px;
+    background-color: violet;
+    display: flex;
+}
+
+.nav-desktop li{
+    flex-grow:1;
+}
+
+.nav-desktop a{
+    display: block;
+    text-align: center;
+    padding: 10px;
+}
+
+.nav-desktop a:hover{
+    color: black;
+}
+
+/* Activo y desactivo el menú mobile/ desktop 767 incluye solo los celulares, 768 incluye ipads */
+@media(max-width: 767px) {
+        .nav{
+            display: block;
+        }
+
+        .nav-desktop{
+            display: none;
+        }
 }
