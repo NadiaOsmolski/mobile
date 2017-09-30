@@ -1,0 +1,16 @@
+*{
+    margin:0 ;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.nav-mobile a {
+    display: block;
+    padding: 20px;
+    background-color: green;
+    border-bottom: 1px dashed blue;
+
+    color: #FFF;
+    text-decoration: none;
+}
