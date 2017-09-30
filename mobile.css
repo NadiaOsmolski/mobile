@@ -5,6 +5,19 @@
 
 }
 
+.nav {
+    position: relative
+
+}
+
+.nav-mobile{
+    position: absolute;
+    right: 30px;
+
+    list-style-type: none;
+    background-color: purple;
+}
+
 .nav-mobile a {
     display: block;
     padding: 20px;
@@ -13,4 +26,8 @@
 
     color: #FFF;
     text-decoration: none;
+}
+
+.nav-mobile a:hover{
+    background-color: orange;
 }
