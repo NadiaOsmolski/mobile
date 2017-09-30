@@ -33,3 +33,7 @@
 .nav-mobile a:hover{
     background-color: orange;
 }
+
+.toggle{
+    display: block;
+}
